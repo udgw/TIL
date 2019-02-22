@@ -40,10 +40,13 @@ WHERE
 
 のようにWHERE句でForeignkeyを指定した場合、INNERJOINが自動的に適応される。
 
-### 出力をファイルにする
+## 出力をファイルにする
 
 ```
 > \o hoge.txt
 > SELECT * FROM hoge_table; -- excute some query
 > \o  -- write to hoge.txt
 ```
+
+## EXPLAINの結果を読みやすく
+- [depesz](https://explain.depesz.com/)

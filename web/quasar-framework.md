@@ -17,5 +17,11 @@ Vueを使用したFrameWork, 業務で使用
         ```
     - 上記の様にすると、FireFoxではdatatableのみにScrollバーが付くが、Chromeではq-stepの範囲の一番下にScrollが付く(datatableには何もしなくてももともと付いている）
 
+## q-selectの挙動
+
+- q-selectの設定値としてv-model="0"などと設定。この後、値に"0"を渡すと不定状態になる。
+    - 何故か暗黙のうちに数字はintに変換される？
+    - 混乱を避けるために文字列にすればよいのか？
+
 ## キャッチアップ
 - v 1.0.0betaが出たらしい
