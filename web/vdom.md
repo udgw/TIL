@@ -6,7 +6,11 @@
 - mustache記法で書ける
     - ベンチ狙いっぽいライブラリではあるが
 
+- 果たしてVDOMなのか？
+    - morphdomというのを参考にしているらしい
+    - attributeになんたらかんたら、とあるが
 
+## misc
 - ちなみにJSXのJITコンパイルができると言うことを今知った
     - 以下は良い資料
         - [5分で理解するReact.js](https://qiita.com/tomzoh/items/7fabe7cb57dd96425867)
